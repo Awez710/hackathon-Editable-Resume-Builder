@@ -70,7 +70,7 @@ function makeEditable() {
 
                 currentElement.style.display = 'none';
                 currentElement.parentNode?.insertBefore(input, currentElement);
-                input.focus(); // Fix: Call focus() correctly
+                input.focus();
             }
         });
     });
